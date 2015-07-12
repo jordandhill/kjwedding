@@ -4,7 +4,12 @@ Kjwedding::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   root 'static#index'
-
+  
+  get 'story' => 'static#story'
+  get 'info' => 'static#info'
+  get 'party' => 'static#party'
+  get 'insta' => 'static#insta'
+  get 'love' => 'static#love'
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 

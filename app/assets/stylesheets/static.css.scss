@@ -63,22 +63,25 @@ a:hover {
 
 .navbar-trans .navbar-brand, .navbar-trans >.container-fluid .navbar-brand {
     padding: 14px;
-    color:#f44d3c;
 }
 
 .navbar-trans li>a:focus,.navbar-trans li.active {
-  background-color:#f44d3c;
-  color:#333;
+  background-color:#999;
+   color:#337ab7;
 }
 
+li.active a {
+ color:#337ab7;
+}
+
+
 .navbar-trans li>a:hover {
-  background-color:#f44d3c;
-  color:#fff;
-  opacity:0.5;
+  background-color:#111;
+   color:#337ab7;
 }
 
 .navbar-trans a{
-    color:#cdcdcd;
+    color:#ccc;
     letter-spacing:1px;
 }
 
